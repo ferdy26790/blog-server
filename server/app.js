@@ -10,7 +10,7 @@ const artikel = require('./routes/artikel');
 const login = require('./routes/login');
 const register = require('./routes/register');
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/blog');
+mongoose.connect('mongodb://admin:admin@ds131237.mlab.com:31237/blog');
 const app = express();
 
 // view engine setup
